@@ -1,0 +1,75 @@
+.table{
+    border: 1px solid rgb(179, 177, 177);
+    border-radius: 5px;
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  table td, table th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  table tr:hover {background-color: #ddd;}
+  
+  table th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    color: gray;
+  }
+.wix__icon{
+    color: white;
+    background-color: black;
+    padding: 0.1rem;
+}
+.text__voilet{
+    color: blueviolet;
+    background-color: rgb(200, 168, 230);
+    font-weight: 600;
+    padding: 0.2rem;
+    border-radius: 5px;
+}
+.text__gray{
+    color: rgb(149, 147, 147);
+    background-color: #ddd;
+    padding: 0.2rem;
+    border-radius: 5px;
+}
+.text__green{
+    color: green;
+    background-color: lightgreen;
+    padding: 0.2rem;
+    border-radius: 5px;
+    font-weight: 600;
+}
+.text__brown{
+    color: rgb(179, 90, 90);
+    background-color: rgb(227, 194, 135);
+    font-weight: 600;
+    padding: 0.2rem;
+    border-radius: 5px;
+}
+.text__blue{
+    color: rgb(79, 79, 209);
+    background-color: rgb(159, 200, 229);
+    padding: 0.2rem;
+    border-radius: 5px;
+    font-weight: 600;
+}
+.content__flex{
+    display: flex;
+    gap: 0.5rem;
+}
+.font__gray{
+    color: gray;
+    text-align: end;
+}
+
+@media(max-width: 958px){
+    .members{
+        display: none;
+    }
+}

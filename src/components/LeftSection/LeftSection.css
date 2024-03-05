@@ -1,0 +1,93 @@
+.left__section{
+    width: 20%;
+    height: 100%;
+    border: 2px solid rgb(179, 177, 177);
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    gap: 8.6rem;
+    justify-content: space-between;
+}
+.profile__section{
+    margin: 0.5rem;
+    border: 1px solid rgb(179, 177, 177);
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem;
+}
+.org__info{
+    display: flex;
+    align-items: center;
+    gap: 0.2rem;
+}
+.org__info i{
+    background-color: black;
+    color: white;
+    padding: 0.3rem;
+}
+.profile__section i{
+    cursor: pointer;
+}
+.departments{
+    margin: 0.5rem;
+}
+.departments p{
+    cursor: pointer;
+    border: 1px solid rgb(179, 177, 177);
+    border-radius: 5px;
+    margin: 0;
+    padding: 0.3rem;
+}
+.text__light{
+    color: gray;
+}
+.folders{
+    margin: 0.5rem;
+    position: relative;
+}
+.folder__menu{
+    display: flex;
+    justify-content: space-between;
+    margin: 0.2rem 0.5rem;
+}
+.menu{
+    margin: 0.2rem 0.5rem;
+}
+.menu.active{
+    display: block;
+}
+
+.account__details{
+    margin: 0.5rem;
+}
+.account__options p{
+    cursor: pointer;
+    border: 1px solid rgb(179, 177, 177);
+    border-radius: 5px;
+    margin: 0;
+    padding: 0.3rem;
+}
+.subscription{
+    margin-top: 0.5rem;
+    padding: 0.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid rgb(179, 177, 177);
+    border-radius: 5px;
+}
+.subscription p{
+    background-color: rgb(193, 190, 190);
+    padding: 5px;
+    border-radius: 5px;
+}
+.subscription button{
+    border: none;
+    border-radius: 5px;
+    color: white;
+    background-color: black;
+    height: 32px;
+    cursor: pointer;
+}
